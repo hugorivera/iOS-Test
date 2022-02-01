@@ -16,6 +16,9 @@
 		45BEF84A27A9A45000A60E05 /* ExiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF84927A9A45000A60E05 /* ExiOSTests.swift */; };
 		45BEF85427A9A45100A60E05 /* ExiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF85327A9A45100A60E05 /* ExiOSUITests.swift */; };
 		45BEF85627A9A45100A60E05 /* ExiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF85527A9A45100A60E05 /* ExiOSUITestsLaunchTests.swift */; };
+		4A7BD4EAED4ACC9223F17BE6 /* Pods_ExiOS_ExiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DF8F0E00D790945A53F5A /* Pods_ExiOS_ExiOSUITests.framework */; };
+		5445693E071FB97E3F4BD28D /* Pods_ExiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63052D0B51ABD381498C794 /* Pods_ExiOS.framework */; };
+		F6F41CB35C22CB41A4006E4B /* Pods_ExiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D66AE91EFD953B6DEFCC25 /* Pods_ExiOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3024DD144792D6BA8A7C62A8 /* Pods-ExiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOS.release.xcconfig"; path = "Target Support Files/Pods-ExiOS/Pods-ExiOS.release.xcconfig"; sourceTree = "<group>"; };
+		366828EB029FCB02CC2A7FCB /* Pods-ExiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOS.debug.xcconfig"; path = "Target Support Files/Pods-ExiOS/Pods-ExiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		45BEF82F27A9A44E00A60E05 /* ExiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BEF83227A9A44E00A60E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45BEF83427A9A44E00A60E05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		45BEF84F27A9A45100A60E05 /* ExiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BEF85327A9A45100A60E05 /* ExiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExiOSUITests.swift; sourceTree = "<group>"; };
 		45BEF85527A9A45100A60E05 /* ExiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A9BF4F8875D87C6AD9DC8F7 /* Pods-ExiOS-ExiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOS-ExiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AD5B8A9101C23D0A6CDB9A9 /* Pods-ExiOS-ExiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOS-ExiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83D66AE91EFD953B6DEFCC25 /* Pods_ExiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A00A0CE8BBD3E3DAAB6A60 /* Pods-ExiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOSTests.release.xcconfig"; path = "Target Support Files/Pods-ExiOSTests/Pods-ExiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5DF36142090E268DFFD4EC5 /* Pods-ExiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ExiOSTests/Pods-ExiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D63052D0B51ABD381498C794 /* Pods_ExiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68DF8F0E00D790945A53F5A /* Pods_ExiOS_ExiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExiOS_ExiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5445693E071FB97E3F4BD28D /* Pods_ExiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F41CB35C22CB41A4006E4B /* Pods_ExiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7BD4EAED4ACC9223F17BE6 /* Pods_ExiOS_ExiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				45BEF84827A9A45000A60E05 /* ExiOSTests */,
 				45BEF85227A9A45100A60E05 /* ExiOSUITests */,
 				45BEF83027A9A44E00A60E05 /* Products */,
+				506C7D057F7D09594253292C /* Pods */,
+				54A15C7C942592F47DCC6BB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = ExiOSUITests;
 			sourceTree = "<group>";
 		};
+		506C7D057F7D09594253292C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				366828EB029FCB02CC2A7FCB /* Pods-ExiOS.debug.xcconfig */,
+				3024DD144792D6BA8A7C62A8 /* Pods-ExiOS.release.xcconfig */,
+				5AD5B8A9101C23D0A6CDB9A9 /* Pods-ExiOS-ExiOSUITests.debug.xcconfig */,
+				4A9BF4F8875D87C6AD9DC8F7 /* Pods-ExiOS-ExiOSUITests.release.xcconfig */,
+				C5DF36142090E268DFFD4EC5 /* Pods-ExiOSTests.debug.xcconfig */,
+				A7A00A0CE8BBD3E3DAAB6A60 /* Pods-ExiOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54A15C7C942592F47DCC6BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D63052D0B51ABD381498C794 /* Pods_ExiOS.framework */,
+				F68DF8F0E00D790945A53F5A /* Pods_ExiOS_ExiOSUITests.framework */,
+				83D66AE91EFD953B6DEFCC25 /* Pods_ExiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45BEF85927A9A45100A60E05 /* Build configuration list for PBXNativeTarget "ExiOS" */;
 			buildPhases = (
+				72103AFE96D6353AF9C0309C /* [CP] Check Pods Manifest.lock */,
 				45BEF82B27A9A44E00A60E05 /* Sources */,
 				45BEF82C27A9A44E00A60E05 /* Frameworks */,
 				45BEF82D27A9A44E00A60E05 /* Resources */,
+				39775AA341A395E3A5F7EDB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45BEF85C27A9A45100A60E05 /* Build configuration list for PBXNativeTarget "ExiOSTests" */;
 			buildPhases = (
+				BB8673514EBAFEF3B0A9A995 /* [CP] Check Pods Manifest.lock */,
 				45BEF84127A9A45000A60E05 /* Sources */,
 				45BEF84227A9A45000A60E05 /* Frameworks */,
 				45BEF84327A9A45000A60E05 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45BEF85F27A9A45100A60E05 /* Build configuration list for PBXNativeTarget "ExiOSUITests" */;
 			buildPhases = (
+				87FA9DF45AEB7E57B152BADA /* [CP] Check Pods Manifest.lock */,
 				45BEF84B27A9A45100A60E05 /* Sources */,
 				45BEF84C27A9A45100A60E05 /* Frameworks */,
 				45BEF84D27A9A45100A60E05 /* Resources */,
+				7BC9DCAED0EB16472E24A4BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39775AA341A395E3A5F7EDB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExiOS/Pods-ExiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExiOS/Pods-ExiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExiOS/Pods-ExiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72103AFE96D6353AF9C0309C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC9DCAED0EB16472E24A4BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FA9DF45AEB7E57B152BADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExiOS-ExiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8673514EBAFEF3B0A9A995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45BEF82B27A9A44E00A60E05 /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		45BEF85A27A9A45100A60E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 366828EB029FCB02CC2A7FCB /* Pods-ExiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +594,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,12 +606,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		45BEF85B27A9A45100A60E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3024DD144792D6BA8A7C62A8 /* Pods-ExiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +623,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,12 +635,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		45BEF85D27A9A45100A60E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DF36142090E268DFFD4EC5 /* Pods-ExiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +666,7 @@
 		};
 		45BEF85E27A9A45100A60E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A00A0CE8BBD3E3DAAB6A60 /* Pods-ExiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +691,7 @@
 		};
 		45BEF86027A9A45100A60E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD5B8A9101C23D0A6CDB9A9 /* Pods-ExiOS-ExiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +714,7 @@
 		};
 		45BEF86127A9A45100A60E05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9BF4F8875D87C6AD9DC8F7 /* Pods-ExiOS-ExiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
