@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Camera Options View Controller-->
+        <scene sceneID="FCf-KK-eeA">
+            <objects>
+                <viewController storyboardIdentifier="cameraOptionsController" id="fcc-ed-bX0" customClass="CameraOptionsViewController" customModule="ExiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3oH-C3-9vk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DGf-zl-0cV">
+                                <rect key="frame" x="0.0" y="696" width="414" height="200"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Pmg-CE-T18">
+                                        <rect key="frame" x="8" y="58" width="398" height="100"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Jie-Co-a1v">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="100"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aU9-yW-PZQ">
+                                                        <rect key="frame" x="0.0" y="0.5" width="398" height="46"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tomar foto" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRm-wK-5bJ">
+                                                        <rect key="frame" x="0.0" y="52" width="398" height="48"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="84M-vR-C9E" appends="YES" id="tgp-wc-drs"/>
+                                                </connections>
+                                            </stackView>
+                                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="3VO-d8-gov">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="100"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo.on.rectangle.angled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bZh-yb-0ud">
+                                                        <rect key="frame" x="0.0" y="-0.5" width="0.0" height="48"/>
+                                                        <color key="tintColor" systemColor="labelColor"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3W-y4-2o3">
+                                                        <rect key="frame" x="0.0" y="52" width="0.0" height="48"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <gestureRecognizers/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="zOF-VU-91C" appends="YES" id="00s-fj-kxl"/>
+                                                </connections>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="dLm-Fp-SIs"/>
+                                        </constraints>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona una opción" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9W-Pr-oTY">
+                                        <rect key="frame" x="8" y="21.5" width="398" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Pmg-CE-T18" firstAttribute="leading" secondItem="DGf-zl-0cV" secondAttribute="leading" constant="8" id="47z-6G-yQZ"/>
+                                    <constraint firstItem="z9W-Pr-oTY" firstAttribute="leading" secondItem="DGf-zl-0cV" secondAttribute="leading" constant="8" id="7ds-ko-duB"/>
+                                    <constraint firstAttribute="trailing" secondItem="z9W-Pr-oTY" secondAttribute="trailing" constant="8" id="9Z4-7j-Hp8"/>
+                                    <constraint firstItem="Pmg-CE-T18" firstAttribute="top" secondItem="z9W-Pr-oTY" secondAttribute="bottom" constant="16" id="CYc-gA-ebk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pmg-CE-T18" secondAttribute="trailing" constant="8" id="K2c-rY-7LP"/>
+                                    <constraint firstAttribute="height" constant="200" id="oLG-Ae-liz"/>
+                                    <constraint firstAttribute="bottom" secondItem="Pmg-CE-T18" secondAttribute="bottom" constant="42" id="xF4-sY-2vm"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljY-e2-umd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="696"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odr-tP-Ynd">
+                                        <rect key="frame" x="382" y="664" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="VPL-zk-Jwy"/>
+                                            <constraint firstAttribute="height" constant="24" id="dOM-bN-k4X"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="xmark" catalog="system"/>
+                                        <connections>
+                                            <action selector="dismissAction:" destination="fcc-ed-bX0" eventType="touchUpInside" id="x1p-iB-1WA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="odr-tP-Ynd" secondAttribute="trailing" constant="8" id="JuH-F7-5j8"/>
+                                    <constraint firstAttribute="bottom" secondItem="odr-tP-Ynd" secondAttribute="bottom" constant="8" id="gfC-Jn-siB"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hkx-6i-lhJ" appends="YES" id="Rrb-I0-f4I"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cAv-LP-NV2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="DGf-zl-0cV" firstAttribute="leading" secondItem="cAv-LP-NV2" secondAttribute="leading" id="9Zn-rp-T4f"/>
+                            <constraint firstItem="DGf-zl-0cV" firstAttribute="top" secondItem="ljY-e2-umd" secondAttribute="bottom" id="DGl-DK-d7Y"/>
+                            <constraint firstItem="ljY-e2-umd" firstAttribute="top" secondItem="3oH-C3-9vk" secondAttribute="top" id="FUb-Vz-QZ7"/>
+                            <constraint firstItem="ljY-e2-umd" firstAttribute="leading" secondItem="cAv-LP-NV2" secondAttribute="leading" id="Lf3-lJ-ppG"/>
+                            <constraint firstAttribute="bottom" secondItem="DGf-zl-0cV" secondAttribute="bottom" id="OVg-4M-Hyh"/>
+                            <constraint firstItem="ljY-e2-umd" firstAttribute="trailing" secondItem="cAv-LP-NV2" secondAttribute="trailing" id="ZpU-ht-lPc"/>
+                            <constraint firstItem="DGf-zl-0cV" firstAttribute="trailing" secondItem="cAv-LP-NV2" secondAttribute="trailing" id="tzi-lo-Bz9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hiddenAreaView" destination="ljY-e2-umd" id="wZL-Ji-hJB"/>
+                        <outlet property="workAreaView" destination="DGf-zl-0cV" id="yeM-5z-uIJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FQW-Ni-hOo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="hkx-6i-lhJ" userLabel="dismiss Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="closeController:" destination="fcc-ed-bX0" id="AHw-nh-YAE"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="84M-vR-C9E" userLabel="camera Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="startCameraAction:" destination="fcc-ed-bX0" id="7Pi-RB-3jF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="zOF-VU-91C" userLabel="image Tap Gesture Recognizer">
+                    <connections>
+                        <action selector="showImageAction:" destination="fcc-ed-bX0" id="M6w-3D-tu9"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="465" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="94"/>
+        <image name="photo.on.rectangle.angled" catalog="system" width="128" height="100"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

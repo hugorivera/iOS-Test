@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (5.5.0)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
   - Firebase (8.9.1):
     - Firebase/Core (= 8.9.1)
   - Firebase/Core (8.9.1):
@@ -95,6 +98,9 @@ PODS:
   - GoogleUtilities/UserDefaults (7.6.0):
     - GoogleUtilities/Logger
   - GTMSessionFetcher/Core (1.7.0)
+  - ImageViewer.swift (3.3.3)
+  - ImageViewer.swift/Fetcher (3.3.3):
+    - SDWebImage
   - IQKeyboardManagerSwift (6.5.9)
   - leveldb-library (1.22.1)
   - nanopb (2.30908.0):
@@ -110,10 +116,13 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.5)
+  - Charts
   - Firebase
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - ImageViewer.swift (~> 3.0)
+  - ImageViewer.swift/Fetcher (~> 3.0)
   - IQKeyboardManagerSwift
   - SDWebImage (~> 5.0)
   - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
@@ -121,6 +130,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Charts
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -132,6 +142,7 @@ SPEC REPOS:
     - GoogleDataTransport
     - GoogleUtilities
     - GTMSessionFetcher
+    - ImageViewer.swift
     - IQKeyboardManagerSwift
     - leveldb-library
     - nanopb
@@ -149,6 +160,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Firebase: fb5114cd2bf96e2ff7bcb01d0d9a156cf5fd2f07
   FirebaseAnalytics: 4ab446ce08a3fe52e8a4303dd997cf26276bf968
   FirebaseCore: c5aab092d9c4b8efea894946166b04c9d9ef0e68
@@ -160,6 +172,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
   GoogleUtilities: 684ee790a24f73ebb2d1d966e9711c203f2a4237
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  ImageViewer.swift: 3dbb74a68ac4bdd6cdd585b3128dae17ccd733e5
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
@@ -167,6 +180,6 @@ SPEC CHECKSUMS:
   SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: da60dde194e301ecb9ec420bed351fcd7def4203
+PODFILE CHECKSUM: 3fc5a100147210b455ef2a33b527f8f9ce613168
 
 COCOAPODS: 1.10.2

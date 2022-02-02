@@ -14,6 +14,9 @@ target 'ExiOS' do
   pod 'Alamofire', '~> 5.5'
   pod 'IQKeyboardManagerSwift'
   pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+  pod 'ImageViewer.swift', '~> 3.0'
+	pod 'ImageViewer.swift/Fetcher', '~> 3.0'
+  pod 'Charts'
 
   target 'ExiOSTests' do
     inherit! :search_paths

@@ -16,6 +16,18 @@
 		45BEF84A27A9A45000A60E05 /* ExiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF84927A9A45000A60E05 /* ExiOSTests.swift */; };
 		45BEF85427A9A45100A60E05 /* ExiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF85327A9A45100A60E05 /* ExiOSUITests.swift */; };
 		45BEF85627A9A45100A60E05 /* ExiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF85527A9A45100A60E05 /* ExiOSUITestsLaunchTests.swift */; };
+		45BEF86327A9AC1200A60E05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45BEF86227A9AC1200A60E05 /* GoogleService-Info.plist */; };
+		45BEF86627A9AF9100A60E05 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF86527A9AF9100A60E05 /* NameTableViewCell.swift */; };
+		45BEF86927A9B41700A60E05 /* GeneralTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF86827A9B41700A60E05 /* GeneralTableViewController.swift */; };
+		45BEF86C27A9B96E00A60E05 /* CameraOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BEF86B27A9B96E00A60E05 /* CameraOptions.storyboard */; };
+		45BEF86E27A9BA8000A60E05 /* CameraOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF86D27A9BA8000A60E05 /* CameraOptionsViewController.swift */; };
+		45BEF87027A9BE6100A60E05 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF86F27A9BE6100A60E05 /* ImageTableViewCell.swift */; };
+		45BEF87227A9FB3400A60E05 /* GraficaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF87127A9FB3400A60E05 /* GraficaTableViewCell.swift */; };
+		45BEF87527A9FEE900A60E05 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF87427A9FEE900A60E05 /* Model.swift */; };
+		45BEF87727AAE9F900A60E05 /* GraficasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF87627AAE9F900A60E05 /* GraficasTableViewController.swift */; };
+		45BEF87927AAEC7200A60E05 /* PieChartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF87827AAEC7200A60E05 /* PieChartTableViewCell.swift */; };
+		45BEF87D27AB149500A60E05 /* lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF87C27AB149500A60E05 /* lib.swift */; };
+		45BEF87F27AB425400A60E05 /* SendImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BEF87E27AB425400A60E05 /* SendImageTableViewCell.swift */; };
 		4A7BD4EAED4ACC9223F17BE6 /* Pods_ExiOS_ExiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68DF8F0E00D790945A53F5A /* Pods_ExiOS_ExiOSUITests.framework */; };
 		5445693E071FB97E3F4BD28D /* Pods_ExiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D63052D0B51ABD381498C794 /* Pods_ExiOS.framework */; };
 		F6F41CB35C22CB41A4006E4B /* Pods_ExiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D66AE91EFD953B6DEFCC25 /* Pods_ExiOSTests.framework */; };
@@ -54,6 +66,18 @@
 		45BEF84F27A9A45100A60E05 /* ExiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BEF85327A9A45100A60E05 /* ExiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExiOSUITests.swift; sourceTree = "<group>"; };
 		45BEF85527A9A45100A60E05 /* ExiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		45BEF86227A9AC1200A60E05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		45BEF86527A9AF9100A60E05 /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		45BEF86827A9B41700A60E05 /* GeneralTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewController.swift; sourceTree = "<group>"; };
+		45BEF86B27A9B96E00A60E05 /* CameraOptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraOptions.storyboard; sourceTree = "<group>"; };
+		45BEF86D27A9BA8000A60E05 /* CameraOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraOptionsViewController.swift; sourceTree = "<group>"; };
+		45BEF86F27A9BE6100A60E05 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		45BEF87127A9FB3400A60E05 /* GraficaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficaTableViewCell.swift; sourceTree = "<group>"; };
+		45BEF87427A9FEE900A60E05 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		45BEF87627AAE9F900A60E05 /* GraficasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraficasTableViewController.swift; sourceTree = "<group>"; };
+		45BEF87827AAEC7200A60E05 /* PieChartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartTableViewCell.swift; sourceTree = "<group>"; };
+		45BEF87C27AB149500A60E05 /* lib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lib.swift; sourceTree = "<group>"; };
+		45BEF87E27AB425400A60E05 /* SendImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendImageTableViewCell.swift; sourceTree = "<group>"; };
 		4A9BF4F8875D87C6AD9DC8F7 /* Pods-ExiOS-ExiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOS-ExiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5AD5B8A9101C23D0A6CDB9A9 /* Pods-ExiOS-ExiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExiOS-ExiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExiOS-ExiOSUITests/Pods-ExiOS-ExiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		83D66AE91EFD953B6DEFCC25 /* Pods_ExiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,13 +140,19 @@
 		45BEF83127A9A44E00A60E05 /* ExiOS */ = {
 			isa = PBXGroup;
 			children = (
+				45BEF87327A9FED100A60E05 /* models */,
+				45BEF86A27A9B93400A60E05 /* aux */,
+				45BEF86727A9B3F900A60E05 /* controllers */,
+				45BEF86427A9AF6200A60E05 /* views */,
 				45BEF83227A9A44E00A60E05 /* AppDelegate.swift */,
 				45BEF83427A9A44E00A60E05 /* SceneDelegate.swift */,
 				45BEF83627A9A44E00A60E05 /* ViewController.swift */,
 				45BEF83827A9A44E00A60E05 /* Main.storyboard */,
 				45BEF83B27A9A45000A60E05 /* Assets.xcassets */,
 				45BEF83D27A9A45000A60E05 /* LaunchScreen.storyboard */,
+				45BEF86227A9AC1200A60E05 /* GoogleService-Info.plist */,
 				45BEF84027A9A45000A60E05 /* Info.plist */,
+				45BEF87C27AB149500A60E05 /* lib.swift */,
 			);
 			path = ExiOS;
 			sourceTree = "<group>";
@@ -144,6 +174,44 @@
 			path = ExiOSUITests;
 			sourceTree = "<group>";
 		};
+		45BEF86427A9AF6200A60E05 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				45BEF86527A9AF9100A60E05 /* NameTableViewCell.swift */,
+				45BEF86F27A9BE6100A60E05 /* ImageTableViewCell.swift */,
+				45BEF87127A9FB3400A60E05 /* GraficaTableViewCell.swift */,
+				45BEF87827AAEC7200A60E05 /* PieChartTableViewCell.swift */,
+				45BEF87E27AB425400A60E05 /* SendImageTableViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		45BEF86727A9B3F900A60E05 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45BEF86827A9B41700A60E05 /* GeneralTableViewController.swift */,
+				45BEF87627AAE9F900A60E05 /* GraficasTableViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		45BEF86A27A9B93400A60E05 /* aux */ = {
+			isa = PBXGroup;
+			children = (
+				45BEF86B27A9B96E00A60E05 /* CameraOptions.storyboard */,
+				45BEF86D27A9BA8000A60E05 /* CameraOptionsViewController.swift */,
+			);
+			path = aux;
+			sourceTree = "<group>";
+		};
+		45BEF87327A9FED100A60E05 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				45BEF87427A9FEE900A60E05 /* Model.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		506C7D057F7D09594253292C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +222,6 @@
 				C5DF36142090E268DFFD4EC5 /* Pods-ExiOSTests.debug.xcconfig */,
 				A7A00A0CE8BBD3E3DAAB6A60 /* Pods-ExiOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,7 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45BEF83F27A9A45000A60E05 /* LaunchScreen.storyboard in Resources */,
+				45BEF86327A9AC1200A60E05 /* GoogleService-Info.plist in Resources */,
 				45BEF83C27A9A45000A60E05 /* Assets.xcassets in Resources */,
+				45BEF86C27A9B96E00A60E05 /* CameraOptions.storyboard in Resources */,
 				45BEF83A27A9A44E00A60E05 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,8 +476,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45BEF87527A9FEE900A60E05 /* Model.swift in Sources */,
+				45BEF87D27AB149500A60E05 /* lib.swift in Sources */,
+				45BEF87027A9BE6100A60E05 /* ImageTableViewCell.swift in Sources */,
+				45BEF87F27AB425400A60E05 /* SendImageTableViewCell.swift in Sources */,
 				45BEF83727A9A44E00A60E05 /* ViewController.swift in Sources */,
 				45BEF83327A9A44E00A60E05 /* AppDelegate.swift in Sources */,
+				45BEF86627A9AF9100A60E05 /* NameTableViewCell.swift in Sources */,
+				45BEF87727AAE9F900A60E05 /* GraficasTableViewController.swift in Sources */,
+				45BEF86927A9B41700A60E05 /* GeneralTableViewController.swift in Sources */,
+				45BEF87227A9FB3400A60E05 /* GraficaTableViewCell.swift in Sources */,
+				45BEF86E27A9BA8000A60E05 /* CameraOptionsViewController.swift in Sources */,
+				45BEF87927AAEC7200A60E05 /* PieChartTableViewCell.swift in Sources */,
 				45BEF83527A9A44E00A60E05 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,6 +668,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -618,6 +698,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CEVBVGLASL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
